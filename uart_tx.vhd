@@ -1,7 +1,6 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
-
 entity uart_tx is
 generic (
 c_clkfreq   : integer := 100_000_000;
